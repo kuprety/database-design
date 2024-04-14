@@ -1,0 +1,1 @@
+INSERT INTO Country (Name,Language) VALUES ('{{(Table1.newRow || {}).Name}}','{{(Table1.newRow || {}).Language}}')

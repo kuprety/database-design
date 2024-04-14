@@ -1,0 +1,1 @@
+UPDATE Country SET Name= '{{Table1.updatedRow.Name}}', Language= '{{Table1.updatedRow.Language}}' WHERE CountryID= '{{Table1.updatedRow.CountryID}}';
