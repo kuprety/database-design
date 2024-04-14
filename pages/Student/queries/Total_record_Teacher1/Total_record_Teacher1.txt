@@ -1,0 +1,1 @@
+SELECT COUNT(*) from Teacher WHERE Name LIKE '%{{tbl_userInfo.searchText}}%';

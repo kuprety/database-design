@@ -1,27 +1,26 @@
 {
   "unpublishedPage": {
-    "name": "Page1",
-    "slug": "page1",
+    "name": "Student",
+    "slug": "student",
     "layouts": [
       {
         "viewMode": false,
         "dsl": {
           "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 4896,
+          "rightColumn": 1224,
           "snapColumns": 64,
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 780,
+          "bottomRow": 630,
           "containerStyle": "none",
-          "snapRows": 124,
+          "snapRows": 128,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 89,
-          "minHeight": 1292,
-          "dynamicTriggerPathList": [],
+          "minHeight": 1300,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
@@ -29,28 +28,28 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Page1_Select_Country_language1",
-              "name": "Select_Country_language1",
+              "id": "Student_Select_Teacher1",
+              "name": "Select_Teacher1",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [
-                "Table1.searchText",
-                "Table1.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"",
-                "Table1.sortOrder.column || 'Language'",
-                "Table1.pageSize",
-                "Table1.pageOffset"
+                "tbl_userInfo.pageSize",
+                "tbl_userInfo.searchText",
+                "tbl_userInfo.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"",
+                "tbl_userInfo.pageOffset",
+                "tbl_userInfo.sortOrder.column || 'TeacherID'"
               ],
               "timeoutInMillisecond": 10000
             }
           ],
           [
             {
-              "id": "Page1_Total_record_Country_language1",
-              "name": "Total_record_Country_language1",
+              "id": "Student_Total_record_Teacher1",
+              "name": "Total_record_Teacher1",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [
-                "Table1.searchText"
+                "tbl_userInfo.searchText"
               ],
               "timeoutInMillisecond": 10000
             }
@@ -58,15 +57,16 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Page1",
+        "id": "Student",
         "deleted": false,
         "policies": [],
         "userPermissions": []
       }
     ],
     "userPermissions": [],
-    "policies": []
+    "policies": [],
+    "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "6619fff383486d167e2dc6d3_6619fff383486d167e2dc6d5"
+  "gitSyncId": "661a21476fc1f152d15c308e_661c3ffa6fc1f152d15c30b8"
 }
