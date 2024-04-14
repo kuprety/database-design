@@ -1,0 +1,12 @@
+SELECT
+  *
+FROM
+  Student
+WHERE
+  Name LIKE '%{{tbl_userInfo.searchText}}%'
+ORDER BY
+  {{tbl_userInfo.sortOrder.column || 'StudentID'}} {{tbl_userInfo.sortOrder.order !== "desc" ? "" : "DESC"}}
+LIMIT
+  {{tbl_userInfo.pageSize}}
+OFFSET
+  {{tbl_userInfo.pageOffset}}
