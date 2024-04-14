@@ -15,6 +15,7 @@
     },
     "pageId": "Home",
     "actionConfiguration": {
+      "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "body": "INSERT INTO Country (Name,Language) VALUES ('{{(Table1.newRow || {}).Name}}','{{(Table1.newRow || {}).Language}}')",
