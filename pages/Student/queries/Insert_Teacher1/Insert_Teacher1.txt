@@ -1,0 +1,1 @@
+INSERT INTO Teacher (Name,Age,Email,Education,Salary,NativeLanguage) VALUES ('{{(Table1.newRow || {}).Name}}','{{(Table1.newRow || {}).Age}}','{{(Table1.newRow || {}).Email}}','{{(Table1.newRow || {}).Education}}','{{(Table1.newRow || {}).Salary}}','{{(Table1.newRow || {}).NativeLanguage}}')
