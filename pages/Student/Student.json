@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 640,
+          "bottomRow": 1720,
           "containerStyle": "none",
           "snapRows": 59,
           "parentRowSpace": 1,
@@ -28,21 +28,21 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Student_Select_Teacher1",
-              "name": "Select_Teacher1",
+              "id": "Student_Select_Language1",
+              "name": "Select_Language1",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [
                 "Table1.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"",
-                "Table1.sortOrder.column || 'TeacherID'",
                 "Table1.pageSize",
-                "Table1.pageOffset"
+                "Table1.pageOffset",
+                "Table1.sortOrder.column || 'LanguageID'"
               ],
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "Student_Total_record_Teacher1",
-              "name": "Total_record_Teacher1",
+              "id": "Student_Total_record_Language4",
+              "name": "Total_record_Language4",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [],
@@ -63,5 +63,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "661a219383486d167e2dc6f6_661c464383486d167e2dc746"
+  "gitSyncId": "661a219383486d167e2dc6f6_661c48bb83486d167e2dc753"
 }

@@ -1,27 +1,26 @@
 {
   "unpublishedPage": {
-    "name": "Home",
-    "slug": "home",
+    "name": "StudentInfo",
+    "slug": "studentinfo",
     "layouts": [
       {
         "viewMode": false,
         "dsl": {
           "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 4896,
+          "rightColumn": 1224,
           "snapColumns": 64,
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 440,
+          "bottomRow": 380,
           "containerStyle": "none",
-          "snapRows": 124,
+          "snapRows": 59,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 89,
-          "minHeight": 1292,
-          "dynamicTriggerPathList": [],
+          "minHeight": 610,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
@@ -29,7 +28,7 @@
         "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Home",
+        "id": "StudentInfo",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -40,5 +39,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "6619fff383486d167e2dc6d3_6619fff383486d167e2dc6d5"
+  "gitSyncId": "661a219383486d167e2dc6f6_661c464383486d167e2dc746"
 }

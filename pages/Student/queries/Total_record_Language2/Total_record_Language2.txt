@@ -1,0 +1,1 @@
+SELECT COUNT(*) from Language WHERE Name LIKE '%{{Table1.searchText}}%';
