@@ -1,3 +1,9 @@
+# DataBase-Appsmith
+
+This is the UI for BabbleBuddies! In the home screen, the user can choose to be a student, teacher, or traveler. In the interface, each of these personas can view/edit different database. 
+
+
+Appsmith for DataDase
 ![](https://raw.githubusercontent.com/appsmithorg/appsmith/release/static/appsmith_logo_primary.png)
 
 This app is built using Appsmith. Turn any datasource into an internal app in minutes. Appsmith lets you drag-and-drop components to build dashboards, write logic with JavaScript objects and connect to any API, database or GraphQL source.
@@ -8,4 +14,6 @@ This app is built using Appsmith. Turn any datasource into an internal app in mi
 
 ##### You can visit the application using the below link
 
-###### [![](https://assets.appsmith.com/git-sync/Buttons.svg) ](http://localhost:8080/applications/6619fff383486d167e2dc6d3/pages/6619fff383486d167e2dc6d6) [![](https://assets.appsmith.com/git-sync/Buttons2.svg)](http://localhost:8080/applications/6619fff383486d167e2dc6d3/pages/6619fff383486d167e2dc6d6/edit)
+###### [![](https://assets.appsmith.com/git-sync/Buttons.svg) ](http://localhost:8080/applications/661c53957ee6db6a4d5e9220/pages/661c53957ee6db6a4d5e9223) [![](https://assets.appsmith.com/git-sync/Buttons2.svg)](http://localhost:8080/applications/661c53957ee6db6a4d5e9220/pages/661c53957ee6db6a4d5e9223/edit)
+
+LINK TO DEMO: https://youtu.be/d1L3kI_mglQ

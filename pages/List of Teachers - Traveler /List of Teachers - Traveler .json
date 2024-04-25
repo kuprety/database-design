@@ -1,0 +1,67 @@
+{
+  "unpublishedPage": {
+    "name": "List of Teachers - Traveler ",
+    "slug": "list-of-teachers-traveler",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 1224,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 1190,
+          "containerStyle": "none",
+          "snapRows": 128,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 89,
+          "minHeight": 1300,
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0
+        },
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "List of Teachers - Traveler _Select_Teacher1",
+              "name": "Select_Teacher1",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "tbl_userInfo.pageSize",
+                "tbl_userInfo.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"",
+                "tbl_userInfo.pageOffset",
+                "tbl_userInfo.sortOrder.column || 'TeacherID'"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "List of Teachers - Traveler _Total_record_Teacher1",
+              "name": "Total_record_Teacher1",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
+        "layoutOnLoadActionErrors": [],
+        "validOnPageLoadActions": true,
+        "id": "List of Teachers - Traveler ",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": [],
+    "isHidden": false
+  },
+  "deleted": false,
+  "gitSyncId": "661c66c77ee6db6a4d5e9233_661f51daa3d29b12fc436156"
+}

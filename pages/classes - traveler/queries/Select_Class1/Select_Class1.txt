@@ -1,0 +1,10 @@
+SELECT
+  *
+FROM
+  Class
+ORDER BY
+  {{Table1.sortOrder.column || 'ClassID'}} {{Table1.sortOrder.order !== "desc" ? "" : "DESC"}}
+LIMIT
+  {{Table1.pageSize}}
+OFFSET
+  {{Table1.pageOffset}}

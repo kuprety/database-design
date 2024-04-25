@@ -1,0 +1,10 @@
+SELECT
+  *
+FROM
+  Language
+ORDER BY
+  {{Table2.sortOrder.column || 'LanguageID'}} {{Table2.sortOrder.order !== "desc" ? "" : "DESC"}}
+LIMIT
+  {{Table2.pageSize}}
+OFFSET
+  {{Table2.pageOffset}}

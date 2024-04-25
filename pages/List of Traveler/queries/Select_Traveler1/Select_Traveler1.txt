@@ -1,0 +1,10 @@
+SELECT
+  *
+FROM
+  Traveler
+ORDER BY
+  {{tbl_userInfo.sortOrder.column || 'TravelerID'}} {{tbl_userInfo.sortOrder.order !== "desc" ? "" : "DESC"}}
+LIMIT
+  {{tbl_userInfo.pageSize}}
+OFFSET
+  {{tbl_userInfo.pageOffset}}

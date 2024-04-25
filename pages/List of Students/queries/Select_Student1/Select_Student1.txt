@@ -1,0 +1,10 @@
+SELECT
+  *
+FROM
+  Student
+ORDER BY
+  {{tbl_userInfo.sortOrder.column || 'StudentID'}} {{tbl_userInfo.sortOrder.order !== "desc" ? "" : "DESC"}}
+LIMIT
+  {{tbl_userInfo.pageSize}}
+OFFSET
+  {{tbl_userInfo.pageOffset}}

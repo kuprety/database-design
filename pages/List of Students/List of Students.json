@@ -1,0 +1,67 @@
+{
+  "unpublishedPage": {
+    "name": "List of Students",
+    "slug": "list-of-students",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 1224,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 1520,
+          "containerStyle": "none",
+          "snapRows": 128,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 89,
+          "minHeight": 1300,
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0
+        },
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "List of Students_Select_Student1",
+              "name": "Select_Student1",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "tbl_userInfo.pageSize",
+                "tbl_userInfo.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"",
+                "tbl_userInfo.pageOffset",
+                "tbl_userInfo.sortOrder.column || 'StudentID'"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "List of Students_Total_record_Student1",
+              "name": "Total_record_Student1",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
+        "layoutOnLoadActionErrors": [],
+        "validOnPageLoadActions": true,
+        "id": "List of Students",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": [],
+    "isHidden": false
+  },
+  "deleted": false,
+  "gitSyncId": "661c66c77ee6db6a4d5e9233_661f5dc8a3d29b12fc436187"
+}

@@ -1,21 +1,61 @@
 {
   "pages": [
     {
-      "id": "Page1",
+      "id": "List of Students",
+      "isDefault": false
+    },
+    {
+      "id": "List of Traveler",
+      "isDefault": false
+    },
+    {
+      "id": "List of Teachers - Traveler ",
+      "isDefault": false
+    },
+    {
+      "id": "Traveler Language Page",
+      "isDefault": false
+    },
+    {
+      "id": "Teacher Language Page",
+      "isDefault": false
+    },
+    {
+      "id": "Home",
+      "isDefault": false
+    },
+    {
+      "id": "Student Language Page",
       "isDefault": true
+    },
+    {
+      "id": "classes - students",
+      "isDefault": false
+    },
+    {
+      "id": "List of Teachers - Student",
+      "isDefault": false
+    },
+    {
+      "id": "classes - traveler",
+      "isDefault": false
     }
   ],
   "viewMode": false,
   "appIsExample": false,
   "unreadCommentThreads": 0,
-  "unpublishedApplicationDetail": {
-    "appPositioning": {
-      "type": "FIXED"
-    }
+  "color": "#C7F3F0",
+  "unpublishedAppLayout": {
+    "type": "DESKTOP"
   },
-  "color": "#FFEBFB",
-  "icon": "website",
-  "unpublishedCustomJSLibs": [],
+  "publishedAppLayout": {
+    "type": "DESKTOP"
+  },
+  "unpublishedCustomJSLibs": [
+    {
+      "uidString": "xmlParser_https://cdnjs.cloudflare.com/ajax/libs/fast-xml-parser/3.17.5/parser.min.js"
+    }
+  ],
   "publishedCustomJSLibs": [],
   "evaluationVersion": 2,
   "applicationVersion": 2,

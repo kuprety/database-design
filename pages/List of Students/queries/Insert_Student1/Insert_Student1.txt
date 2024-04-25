@@ -1,0 +1,1 @@
+INSERT INTO Student (Grades,Name,Age,Email,CountryOfOrigin,NativeLanguage) VALUES ('{{(tbl_userInfo.newRow || {}).Grades}}','{{(tbl_userInfo.newRow || {}).Name}}','{{(tbl_userInfo.newRow || {}).Age}}','{{(tbl_userInfo.newRow || {}).Email}}','{{(tbl_userInfo.newRow || {}).CountryOfOrigin}}','{{(tbl_userInfo.newRow || {}).NativeLanguage}}')

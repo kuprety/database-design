@@ -1,0 +1,2 @@
+DELETE FROM public."product"
+  WHERE id = {{tbl_products.triggeredRow.id}};

@@ -1,0 +1,1 @@
+INSERT INTO Language (DifficultyLevel,Name) VALUES ('{{(Table1.newRow || {}).DifficultyLevel}}','{{(Table1.newRow || {}).Name}}')

@@ -1,0 +1,1 @@
+UPDATE Language SET DifficultyLevel= '{{Table2.updatedRow.DifficultyLevel}}', Name= '{{Table2.updatedRow.Name}}' WHERE LanguageID= '{{Table2.updatedRow.LanguageID}}';

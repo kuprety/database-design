@@ -1,0 +1,1 @@
+UPDATE Class SET Duration= '{{Table1.updatedRow.Duration}}', DateTime= '{{Table1.updatedRow.DateTime}}' WHERE ClassID= '{{Table1.updatedRow.ClassID}}';
